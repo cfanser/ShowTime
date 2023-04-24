@@ -34,6 +34,9 @@
                 if (m >= 60) {
                     m = 0;
                     h = h + 1;
+                    if (h >= 24) {
+                        h = 0;
+                    }
                 }
             }
             let localTime = `${h.toString().padStart(2, "0")}:${m.toString().padStart(2, "0")}:${s.toString().padStart(2, "0")}`;            
