@@ -13,6 +13,7 @@
            margin:100px auto;
            color: darkred;
            text-align: center;
+           minwidth:1000px;
         }
     </style>
 </head>
