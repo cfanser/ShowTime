@@ -14,6 +14,7 @@
            color: darkred;
            text-align: center;
            minwidth:1000px;
+           minheight:600px;
         }
     </style>
 </head>
